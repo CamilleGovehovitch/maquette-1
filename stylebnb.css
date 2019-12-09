@@ -1,0 +1,168 @@
+.header{
+    background-image:url('./img/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.nav-logo-container{
+    display: flex;
+}
+.logo-container{
+    width:40%;
+    padding-top: 11px;
+    padding-left:40px;
+}
+.logo-container img{
+    height: 3em;
+}
+.navbar{
+    width:60%;
+    align-items: center;
+}
+.navbar ul{
+    display:flex;
+    margin-left:16%;
+    padding: 3% 2% 3% 2%;
+}
+.navbar ul li{
+    margin-right:3%;
+}
+.navbar a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size:1em;
+}
+.navbar li:hover{
+    text-decoration: underline white ;
+}
+.form-container{
+    background-color:#FFFFFF;
+    height:400px;
+    width:350px;
+    margin-top:30px;
+    margin-left:100px;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow : rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.input{
+    width:100%;
+    height: 30px;
+    margin-top :10px;
+    margin-bottom:10px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.date{
+    display: flex;
+
+}
+.depart{
+    width: 50%;
+    border: 1px solid grey;
+}
+.arrivee{
+    width: 50%;
+    border: 1px solid grey;
+}
+.dateinput{
+    width:50%;
+    height: 30px;
+    margin-top :10px;
+    margin-bottom:10px;
+    border-radius: 4px;
+}
+.dateflex{
+    display: flex;
+}
+.select{
+    width:100%;
+    height: 30px;
+    margin-top :10px;
+    margin-bottom:10px;
+    border-radius: 4px;
+}
+.btn{
+    text-align: right;
+    margin-top:5%;
+}
+.btn a{
+    background-color:#FF5A5F;
+    padding:3%;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:1.2em;
+    color:white;
+}
+.title{
+    font-size:2em;
+    margin-bottom:20px;
+    color:#484848;
+    font-weight:bold;
+}
+.title-explorerbnb{
+    margin-top:60px;
+    margin-bottom:30px;
+    margin-left:40px;
+    font-size:2em;
+    color:#484848;
+    font-weight: bold;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    width:25%;
+    margin-right:2%;
+    align-items: center;
+    border-radius:12px;
+
+    box-shadow : rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+}
+.card-img{
+    width:40%;
+}
+.card-img img{
+    height:5em;
+}
+.card-title{
+    width:60%;
+}
+.cuisine{
+    background-image:url('./img/bg-2.webp');
+    background-position: center;
+    background-size: cover;
+    margin-top:100px;
+    padding-bottom:200px;
+    margin-left: 150px;
+    margin-right:150px;
+    border-radius:12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+}
+.aside{
+    margin-left:100px;
+    padding-top:100px;
+}
+.aside p{
+    font-size:20px;
+    padding-bottom: 40px;
+    color:white;
+}
+.aside h2{
+    margin-top:50px;
+    margin-bottom:40px;
+    font-size: 3em;
+    color:white;
+}
+.aside a{
+    font-size:20px;
+    padding:2%;
+    background-color:white;
+    color:black;
+    text-decoration:none;
+}
